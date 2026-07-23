@@ -2,7 +2,7 @@ import { AIChatDemo } from "@/components/ai-chat-demo/AIChatDemo";
 
 export default function Home() {
   return (
-    <main className="relative flex flex-1 flex-col items-center justify-center overflow-hidden px-6 py-16 sm:px-10">
+    <main className="relative flex flex-1 flex-col items-center justify-center overflow-hidden px-6 py-12 sm:px-10">
       {/* blurred background photo */}
       <div
         className="absolute -inset-5 -z-20 scale-110 bg-cover bg-center blur-md"
