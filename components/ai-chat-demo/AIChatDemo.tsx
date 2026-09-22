@@ -107,11 +107,11 @@ export function AIChatDemo() {
 
   return (
     <div
-      className="relative isolate w-full h-full max-w250"
+      className="relative isolate w-full h-full max-w-250"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
-      {/* <CornerShapes /> */}
+      <CornerShapes />
       <motion.div
         className="relative"
         animate={{ opacity: cardOpacity, scale: cardOpacity ? 1 : 0.985 }}
