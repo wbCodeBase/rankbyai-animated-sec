@@ -2,9 +2,10 @@ import { AIChatDemo } from "@/components/ai-chat-demo/AIChatDemo";
 
 export default function Home() {
   return (
-    <main className="relative flex flex-1 flex-col items-center justify-center overflow-hidden px-6 py-12 sm:px-10">
+    <main>
+    {/* <main className="relative flex flex-1 flex-col items-center justify-center overflow-hidden px-6 py-12 sm:px-10"> */}
       {/* blurred background photo */}
-      <div
+      {/* <div
         className="absolute -inset-5 -z-20 scale-110 bg-cover bg-center blur-md"
         style={{ backgroundImage: "url(/cta-bg.jpg)" }}
       />
@@ -18,9 +19,10 @@ export default function Home() {
           This is the same AI Visibility engine our GEO &amp; AEO specialists run for every client watch how
           ChatGPT, Gemini, Perplexity and Claude rank, cite and recommend a brand in real time.
         </p>
-      </div>
+      </div> */}
 
       <AIChatDemo />
+
     </main>
   );
 }
