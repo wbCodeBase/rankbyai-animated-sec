@@ -6,9 +6,10 @@ export default function Home() {
       {/* blurred background photo */}
        <div
         className="absolute -inset-5 -z-20 scale-110 bg-cover bg-center blur-md"
-        style={{ backgroundImage: "url(/cta-bg.jpg)" }}
+        // style={{ backgroundImage: "url(/cta-bg.jpg)" }}
       />
-      <div className="absolute -inset-5 -z-10 bg-[#060a18]/65" />
+      <div className="absolute -inset-5 -z-10 bg-[#000000]" />
+      {/* <div className="absolute -inset-5 -z-10 bg-[#060a18]/65" /> */}
 
     {/*  <div className="relative z-10 mb-10 max-w-5xl text-center sm:mb-14">
         <h2 className="text-2xl font-extrabold leading-tight text-white sm:text-5xl">
